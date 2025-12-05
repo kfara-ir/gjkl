@@ -1,0 +1,93 @@
+{
+  "CONSTANTS": {
+    "MOCK_ANALYSIS": {
+      "FEMALE": {
+        "age": 28,
+        "bloodTest": {
+          "glucose": "88 mg/dL (Normal)",
+          "hemoglobin": "11.9 g/dL (Slightly low)",
+          "platelets": "320,000/\u03bcL (Normal)",
+          "whiteBloodCells": "5,800/\u03bcL (Normal)"
+        },
+        "diseases": [
+          "Mild iron deficiency",
+          "Possible hormonal imbalance"
+        ],
+        "eyeColor": "Blue",
+        "gender": "female",
+        "hairColor": "Blonde",
+        "hairCondition": "Healthy and full",
+        "medications": [
+          "Iron supplement",
+          "Prenatal vitamins",
+          "Probiotics"
+        ],
+        "painAreas": [],
+        "recommendations": [
+          "Iron-rich diet including leafy greens and lean meats",
+          "Vitamin D supplementation during winter months",
+          "Regular gynecological checkups",
+          "Moderate exercise including strength training",
+          "Adequate sleep of 7-8 hours per night"
+        ],
+        "skinColor": "Fair to light",
+        "vitamins": {
+          "adequate": [
+            "Vitamin C",
+            "Vitamin B6",
+            "Calcium",
+            "Vitamin E"
+          ],
+          "deficient": [
+            "Iron",
+            "Vitamin D",
+            "Folate"
+          ]
+        }
+      },
+      "MALE": {
+        "age": 32,
+        "bloodTest": {
+          "glucose": "95 mg/dL (Normal)",
+          "hemoglobin": "13.8 g/dL (Normal)",
+          "platelets": "285,000/\u03bcL (Normal)",
+          "whiteBloodCells": "6,200/\u03bcL (Normal)"
+        },
+        "diseases": [
+          "Mild hypertension",
+          "Possible stress-related fatigue"
+        ],
+        "eyeColor": "Brown",
+        "gender": "male",
+        "hairColor": "Dark brown",
+        "hairCondition": "Healthy with slight thinning",
+        "medications": [
+          "Multivitamin supplement",
+          "Omega-3 fatty acids"
+        ],
+        "painAreas": [],
+        "recommendations": [
+          "Increase sun exposure or vitamin D supplementation",
+          "Include more iron-rich foods in diet",
+          "Regular cardiovascular exercise 3-4 times per week",
+          "Stress management techniques like meditation",
+          "Annual health checkup recommended"
+        ],
+        "skinColor": "Fair to medium",
+        "vitamins": {
+          "adequate": [
+            "Vitamin C",
+            "Vitamin A",
+            "Calcium",
+            "Magnesium"
+          ],
+          "deficient": [
+            "Vitamin D",
+            "Vitamin B12",
+            "Iron"
+          ]
+        }
+      }
+    }
+  }
+}

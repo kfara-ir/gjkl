@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generated Schema",
+  "type": "object",
+  "properties": {
+    "CONSTANTS": {
+      "type": "object",
+      "properties": {
+        "MOCK_ANALYSIS": {
+          "type": "object",
+          "properties": {
+            "FEMALE": {
+              "type": "object",
+              "properties": {
+                "age": {
+                  "type": "integer",
+                  "examples": [
+                    28
+                  ]
+                },
+                "bloodTest": {
+                  "type": "object",
+                  "properties": {
+                    "glucose": {
+                      "type": "string",
+                      "examples": [
+                        "88 mg/dL (Normal)"
+                      ]
+                    },
+                    "hemoglobin": {
+                      "type": "string",
+                      "examples": [
+                        "11.9 g/dL (Slightly low)"
+                      ]
+                    },
+                    "platelets": {
+                      "type": "string",
+                      "examples": [
+                        "320,000/\u03bcL (Normal)"
+                      ]
+                    },
+                    "whiteBloodCells": {
+                      "type": "string",
+                      "examples": [
+                        "5,800/\u03bcL (Normal)"
+                      ]
+                    }
+                  },
+                  "additionalProperties": true
+                },
+                "diseases": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "eyeColor": {
+                  "type": "string",
+                  "examples": [
+                    "Blue"
+                  ],
+                  "format": "color",
+                  "description": "Color property (NAME format)"
+                },
+                "gender": {
+                  "type": "string",
+                  "examples": [
+                    "female"
+                  ]
+                },
+                "hairColor": {
+                  "type": "string",
+                  "examples": [
+                    "Blonde"
+                  ]
+                },
+                "hairCondition": {
+                  "type": "string",
+                  "examples": [
+                    "Healthy and full"
+                  ]
+                },
+                "medications": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "painAreas": {
+                  "type": "array",
+                  "items": {
+                    "type": [
+                      "string",
+                      "number",
+                      "boolean",
+                      "object",
+                      "array",
+                      "null"
+                    ]
+                  }
+                },
+                "recommendations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "skinColor": {
+                  "type": "string",
+                  "examples": [
+                    "Fair to light"
+                  ]
+                },
+                "vitamins": {
+                  "type": "object",
+                  "properties": {
+                    "adequate": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "deficient": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "additionalProperties": true
+            },
+            "MALE": {
+              "type": "object",
+              "properties": {
+                "age": {
+                  "type": "integer",
+                  "examples": [
+                    32
+                  ]
+                },
+                "bloodTest": {
+                  "type": "object",
+                  "properties": {
+                    "glucose": {
+                      "type": "string",
+                      "examples": [
+                        "95 mg/dL (Normal)"
+                      ]
+                    },
+                    "hemoglobin": {
+                      "type": "string",
+                      "examples": [
+                        "13.8 g/dL (Normal)"
+                      ]
+                    },
+                    "platelets": {
+                      "type": "string",
+                      "examples": [
+                        "285,000/\u03bcL (Normal)"
+                      ]
+                    },
+                    "whiteBloodCells": {
+                      "type": "string",
+                      "examples": [
+                        "6,200/\u03bcL (Normal)"
+                      ]
+                    }
+                  },
+                  "additionalProperties": true
+                },
+                "diseases": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "eyeColor": {
+                  "type": "string",
+                  "examples": [
+                    "Brown"
+                  ],
+                  "format": "color",
+                  "description": "Color property (NAME format)"
+                },
+                "gender": {
+                  "type": "string",
+                  "examples": [
+                    "male"
+                  ]
+                },
+                "hairColor": {
+                  "type": "string",
+                  "examples": [
+                    "Dark brown"
+                  ]
+                },
+                "hairCondition": {
+                  "type": "string",
+                  "examples": [
+                    "Healthy with slight thinning"
+                  ]
+                },
+                "medications": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "painAreas": {
+                  "type": "array",
+                  "items": {
+                    "type": [
+                      "string",
+                      "number",
+                      "boolean",
+                      "object",
+                      "array",
+                      "null"
+                    ]
+                  }
+                },
+                "recommendations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "skinColor": {
+                  "type": "string",
+                  "examples": [
+                    "Fair to medium"
+                  ]
+                },
+                "vitamins": {
+                  "type": "object",
+                  "properties": {
+                    "adequate": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "deficient": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
